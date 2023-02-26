@@ -1,8 +1,8 @@
 <?php
 // Connexion à la base de données
 $dsn = 'pgsql:host=localhost;dbname=todolist';
-$user = 'judekabeya';
-$password = 'jude93zoo';
+$user = 'root';
+$password = '';
 
 try {
     $db = new PDO($dsn, $user, $password);
