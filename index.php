@@ -3,6 +3,7 @@
 $dsn = 'pgsql:host=localhost;dbname=todolist';
 $user = 'root';
 $password = '';
+//
 
 try {
     $db = new PDO($dsn, $user, $password);
